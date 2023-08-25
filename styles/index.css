@@ -1,0 +1,61 @@
+.text-top h3 {
+    color: #FFF;
+font-family: Futura;
+font-size: 25.273px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 4.233px;
+text-align: center;
+}
+
+.area-padding-top {
+    padding: 10px 10px 0px;
+}
+
+::marker {
+    content: none !important;
+}
+
+.form-control {
+    border-radius: 10px !important;
+border: 2px solid rgba(255, 255, 255, 0.10) !important;
+background: #000 !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+    margin-left: 3rem !important;
+}
+
+.form-control:only-of-type {
+    color: white !important;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.nav-item ul li a {
+    color: white !important;
+    background-color: #000 !important;
+}
+
+.dropdown-menu {
+    background-color: #000 !important;
+}
+
+.bg-image {
+    background-image: url('../image1.png');
+    height: 100%;
+    width: 100%;
+}
+
+nav ul li a {
+    color: white !important;
+}
+
+.image-top img {
+    width: 100%;
+    padding: 10px 0px 30px;
+}
