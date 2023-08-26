@@ -11,7 +11,28 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+/* back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  font-size: 25px;
+  background-color: red;
+  border-radius: 4px;
+  z-index: 99;
+  visibility: hidden;
+  transition: all 0.5s;
+  color: white;
+}
 
+.back-to-top:hover {
+  background: white;
+  color: red;
+}
 
 .sticky-top {
     background-color: black !important;
