@@ -13,12 +13,24 @@
   padding: 10px 10px 0px;
   }
 
-  .carousel-control-prev-icon {
+  .carousel-caption {
+    position: absolute;
+    left: 10%;
+    right: 75%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: white;
+    text-align: left;
+    }
+    .carousel-control-prev-icon {
     margin-left: -90px;
-  }
-  .carousel-control-next-icon {
+    margin-bottom: 0px;
+    }
+    .carousel-control-next-icon {
     margin-right: -90px;
-  }
+    margin-bottom: 0px;
+    }
   
   ::marker {
   content: none !important;
