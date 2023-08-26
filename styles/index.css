@@ -1,64 +1,79 @@
 .text-top h3 {
-  color: #fff;
+  color: #FFF;
   font-family: Futura;
-  font-size: 20px;
+  font-size: 25.273px;
   font-style: italic;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 4.233px;
   text-align: center;
-}
-.area-padding-top {
+  }
+  
+  .area-padding-top {
   padding: 10px 10px 0px;
-}
-.carousel-control-prev-icon {
-  margin-left: -90px;
-}
-.carousel-control-next-icon {
-  margin-right: -90px;
-}
-::marker {
+  }
+  
+  ::marker {
   content: none !important;
-}
-.form-control {
+  }
+  
+  .form-control {
   border-radius: 10px !important;
-  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 0.10) !important;
   background: #000 !important;
-}
-.form-control::placeholder {
+  }
+  
+  .form-control::placeholder {
   color: white !important;
   margin-left: 3rem !important;
-}
-.form-control:only-of-type {
+  }
+  
+  .form-control:only-of-type {
   color: white !important;
-}
-.navbar-brand {
+  }
+  
+  .navbar-brand {
   margin-right: 0;
-}
-.nav-item ul li a {
+  }
+  
+  .nav-item ul li a {
   color: white !important;
   background-color: #000 !important;
-}
-.dropdown-menu {
+  }
+  
+  .dropdown-menu {
   background-color: #000 !important;
-}
-.bg-image {
-  background-image: url("../image1.png");
+  }
+  
+  .bg-image {
+  background-image: url('../image1.png');
   height: 100%;
   width: 100%;
-}
-nav ul li a {
+  }
+  
+  .text-title h1{
+  font-family: "Red Hat Display";
+  font-size: 29.082px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  
+  .text-title p {
+  color: rgba(255, 255, 255, 0.50);
+  font-family: Red Hat Display;
+  font-size: 29.082px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  
+  nav ul li a {
   color: white !important;
-}
-.image-top img {
+  }
+  
+  .image-top img {
   width: 100%;
   padding: 10px 0px 30px;
-}
-nav ul li a {
-  color: white !important;
-}
-
-.image-top img {
-  width: 100%;
-  padding: 10px 0px 30px;
-}
+  }
+  
