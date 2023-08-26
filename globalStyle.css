@@ -1,4 +1,12 @@
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
 body {
+    background-color: black !important;
+}
+
+
+
+.sticky-top {
     background-color: black !important;
 }
 
