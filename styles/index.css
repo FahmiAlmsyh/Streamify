@@ -58,6 +58,21 @@
   .navbar-brand {
   margin-right: 0;
   }
+
+  @media screen and (max-width: 768px) {
+    .bg-image {
+      display: none;
+    }
+  }
+
+  .cont2 {
+    background-color: #19171D;
+    padding-bottom: 50px;
+  }
+
+  .padding {
+    background-color: #19171D;
+  }
   
   .nav-item ul li a {
   color: white !important;
@@ -124,6 +139,10 @@
     }
   }
 
+  .content3 {
+    background-color: #19171D;
+    padding-bottom: 50px;
+  }
 
   .text-view h1 {
     color: #FFF;
