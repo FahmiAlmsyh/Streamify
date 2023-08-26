@@ -51,6 +51,23 @@ background: #000 !important;
     width: 100%;
 }
 
+.text-title h1{
+font-family: "Red Hat Display";
+font-size: 29.082px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text-title p {
+    color: rgba(255, 255, 255, 0.50);
+font-family: Red Hat Display;
+font-size: 29.082px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
 nav ul li a {
     color: white !important;
 }
