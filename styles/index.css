@@ -13,6 +13,10 @@
   padding: 10px 10px 0px;
   }
 
+  .dropdown-divider {
+    border-top: 1px solid gray !important;
+  }
+
   .carousel-caption {
     position: absolute;
     left: 10%;
@@ -114,11 +118,26 @@
     order: 2;
   }
 
+  @media screen and (min-width:320px) {
+    .cont1 {
+      flex-direction: column-reverse !important;
+    }
+  }
+
 
   .text-view h1 {
     color: #FFF;
 font-family: Red Hat Display;
 font-size: 29.082px;
+font-weight: 900 !important;
+line-height: normal;
+margin-bottom: 0 !important;
+  }
+
+  .text-view h2 {
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 20.082px;
 font-weight: 900 !important;
 line-height: normal;
 margin-bottom: 0 !important;
