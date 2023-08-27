@@ -59,6 +59,10 @@
   }
 }
 
+.bg-image {
+  background-repeat: no-repeat;
+}
+
 .cont2 {
   background-color: #19171d;
   padding-bottom: 50px;
