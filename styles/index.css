@@ -1,5 +1,5 @@
 .text-top h3 {
-  color: #FFF;
+  color: #fff;
   font-family: Futura;
   font-size: 20px;
   font-style: italic;
@@ -7,16 +7,16 @@
   line-height: normal;
   letter-spacing: 4.233px;
   text-align: center;
-  }
-  .area-padding-top {
+}
+.area-padding-top {
   padding: 10px 10px 0px;
-  }
-  
-  .dropdown-divider {
+}
+
+.dropdown-divider {
   border-top: 1px solid gray !important;
-  }
-  
-  .carousel-caption {
+}
+
+.carousel-caption {
   position: absolute;
   left: 10%;
   right: 75%;
@@ -25,130 +25,130 @@
   padding: 10px;
   color: white;
   text-align: left;
-  }
-  .carousel-control-prev-icon {
+}
+.carousel-control-prev-icon {
   margin-left: -90px;
   margin-bottom: 0px;
-  }
-  .carousel-control-next-icon {
+}
+.carousel-control-next-icon {
   margin-right: -90px;
   margin-bottom: 0px;
-  }
-  ::marker {
+}
+::marker {
   content: none !important;
-  }
-  .form-control {
+}
+.form-control {
   border-radius: 10px !important;
-  border: 2px solid rgba(255, 255, 255, 0.10) !important;
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
   background: #000 !important;
-  }
-  .form-control::placeholder {
+}
+.form-control::placeholder {
   color: white !important;
   margin-left: 3rem !important;
-  }
-  .form-control:only-of-type {
+}
+.form-control:only-of-type {
   color: white !important;
-  }
-  .navbar-brand {
+}
+.navbar-brand {
   margin-right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
   .bg-image {
-  display: none;
+    display: none;
   }
-  }
-  
-  .cont2 {
-  background-color: #19171D;
+}
+
+.cont2 {
+  background-color: #19171d;
   padding-bottom: 50px;
-  }
-  
-  .padding {
-  background-color: #19171D;
-  }
-  .nav-item ul li a {
+}
+
+.padding {
+  background-color: #19171d;
+}
+.nav-item ul li a {
   color: white !important;
   background-color: #000 !important;
-  }
-  .dropdown-menu {
+}
+.dropdown-menu {
   background-color: #000 !important;
-  }
-  .bg-image {
-  background-image: url('../image1.png');
+}
+.bg-image {
+  background-image: url("../image1.png");
   height: 100%;
   width: 100%;
-  }
-  .text-title h1{
+}
+.text-title h1 {
   font-family: "Red Hat Display";
   font-size: 29.082px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  }
-  .text-title p {
-  color: rgba(255, 255, 255, 0.50);
+}
+.text-title p {
+  color: rgba(255, 255, 255, 0.5);
   font-family: Red Hat Display;
   font-size: 20.082px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  }
-  nav ul li a {
+}
+nav ul li a {
   color: white !important;
-  }
-  .image-top img {
+}
+.image-top img {
   width: 100%;
   padding: 10px 0px 30px;
-  }
-  
-  .preview {
+}
+
+.preview {
   display: flex;
   align-items: center;
-  }
-  .btn-play {
+}
+.btn-play {
   padding: 5px 10px 0px 10px;
   background-color: red;
   border-radius: 50px;
   width: max-content;
   order: 1;
   margin-right: 1rem;
-  }
-  
-  .content {
+}
+
+.content {
   padding-top: 50px;
   padding-bottom: 50px;
-  }
-  
-  .text-view {
+}
+
+.text-view {
   order: 2;
-  }
-  
-  @media screen and (min-width:320px) {
+}
+
+@media screen and (min-width: 320px) {
   .cont1 {
-  flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
   }
-  }
-  
-  .content3 {
-  background-color: #19171D;
+}
+
+.content3 {
+  background-color: #19171d;
   padding-bottom: 50px;
-  }
-  
-  .text-view h1 {
-  color: #FFF;
+}
+
+.text-view h1 {
+  color: #fff;
   font-family: Red Hat Display;
   font-size: 29.082px;
   font-weight: 900 !important;
   line-height: normal;
   margin-bottom: 0 !important;
-  }
-  
-  .text-view h2 {
-  color: #FFF;
+}
+
+.text-view h2 {
+  color: #fff;
   font-family: Red Hat Display;
   font-size: 20.082px;
   font-weight: 900 !important;
   line-height: normal;
   margin-bottom: 0 !important;
-  }
+}
