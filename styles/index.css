@@ -64,13 +64,18 @@
 }
 
 .cont2 {
+  padding-bottom: 50px;
+}
+
+.text-cont2 {
   background-color: #19171d;
   padding-bottom: 50px;
 }
 
-.padding {
+.content1 {
   background-color: #19171d;
 }
+
 .nav-item ul li a {
   color: white !important;
   background-color: #000 !important;
