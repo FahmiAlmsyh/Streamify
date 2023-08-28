@@ -129,12 +129,6 @@ nav ul li a {
   order: 2;
 }
 
-@media screen and (min-width: 320px) {
-  .cont1 {
-    flex-direction: column-reverse !important;
-  }
-}
-
 .content3 {
   background-color: #19171d;
   padding-bottom: 50px;
