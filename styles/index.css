@@ -79,11 +79,7 @@
 .dropdown-menu {
   background-color: #000 !important;
 }
-.bg-image {
-  background-image: url("../image1.png");
-  height: 100%;
-  width: 100%;
-}
+
 .text-title h1 {
   font-family: "Red Hat Display";
   font-size: 29.082px;
