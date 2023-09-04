@@ -79,33 +79,3 @@ document.addEventListener("click", (event) => {
 });
 
 // carousel
-
-const carousel = document.querySelector('.carousel-wrapper');
-        const items = document.querySelectorAll('.carousel-item');
-        let currentIndex = 0;
-
-        // Function to go to the previous slide
-        function prevSlide() {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateCarousel();
-            }
-        }
-
-        // Function to go to the next slide
-        function nextSlide() {
-            if (currentIndex < items.length - 1) {
-                currentIndex++;
-                updateCarousel();
-            }
-        }
-
-        // Function to update the carousel position
-        function updateCarousel() {
-            const itemWidth = items[0].offsetWidth;
-            const offset = -currentIndex * (itemWidth + 20); // Adjust the spacing
-            carousel.style.transform = `translateX(${offset}px)`;
-        }
-
-        // Initial setup
-        updateCarousel();
