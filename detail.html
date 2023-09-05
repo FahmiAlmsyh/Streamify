@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
     <!-- Font Awesome -->
     <link
@@ -15,10 +15,10 @@
       rel="stylesheet"
     />
     <!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
-rel="stylesheet"
-/>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+      rel="stylesheet"
+    />
 
     <!-- bootstrap -->
     <link
@@ -35,214 +35,272 @@ rel="stylesheet"
     />
 
     <link rel="stylesheet" href="globalStyle.css" />
-    <link rel="stylesheet" href="styles/detail.css">
-</head>
-<body>
-      <!-- navbar -->
+    <link rel="stylesheet" href="styles/detail.css" />
+  </head>
+  <body>
+    <!-- navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-dark sticky-top">
-        <div class="container-fluid menu container">
-          <a href="index.html">
+      <div class="container-fluid menu container">
+        <a href="index.html">
           <img
             src="image/index/logo.svg"
             class="navbar-brand"
             width="85"
             alt=""
           />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="text"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Shows</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">Movies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">New & Popular</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">Years</a>
-              </li>
-            </ul>
-          </div>
-          <!-- Search Bar and Avatar -->
-          <div class="d-flex">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <img
-                    src="image/index/Vector.svg"
-                    width="25"
-                    alt="Avatar"
-                    class="navbar-avatar"
-                  />
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-end"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <li><a class="dropdown-item">Hendra Nugroho</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Logout</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="text"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">New & Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">Years</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- end navbar -->
+        <!-- Search Bar and Avatar -->
+        <div class="d-flex">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="image/index/Vector.svg"
+                  width="25"
+                  alt="Avatar"
+                  class="navbar-avatar"
+                />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item">Hendra Nugroho</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
 
-      <!-- preview -->
-      <div class="container">
-        <div class="preview mt-3">
-            <div class="d-flex justify-content-center">
-      <iframe width="1250" height="703.13" src="https://www.youtube.com/embed/PiRpbRx8h2o?si=ggbHK9pF85mj4VR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <!-- preview -->
+    <div class="container">
+      <div class="preview mt-3">
+        <div class="d-flex justify-content-center">
+          <iframe
+            width="1250"
+            height="703.13"
+            src="https://www.youtube.com/embed/PiRpbRx8h2o?si=ggbHK9pF85mj4VR8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-    <div class="text-center text-light text-pre mt-2">
-        <h1>Mountain Men</h1>
-        <h3>Preview for Mountain Men</h3>
-    </div>
+        <div class="text-center text-light text-pre mt-2">
+          <h1>Mountain Men</h1>
+          <h3>Preview for Mountain Men</h3>
+        </div>
 
-    <div class="icon mt-3" style="margin-bottom: 70px;">
-        <i class='bx bx-plus bx-md'></i>
-        <h3 class="text-light">Add List</h3>
+        <div class="icon mt-3" style="margin-bottom: 70px">
+          <i class="bx bx-plus bx-md"></i>
+          <h3 class="text-light">Add List</h3>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
     <!-- end preview -->
 
     <!-- series -->
-    <div class="series" style="background-color: #222222; padding-top: 50px; padding-bottom: 50px;">
+    <div
+      class="series"
+      style="background-color: #222222; padding-top: 50px; padding-bottom: 50px"
+    >
+      <!-- start about series -->
+      <h1 id="toggleButton" class="text-light text-center">
+        About the Series <i class="bx bx-chevron-down"></i>
+      </h1>
+      <div id="content" class="hidden">
+        <p class="text-light text-center">
+          Ini adalah konten tambahan yang akan ditampilkan saat tombol diklik.
+        </p>
+      </div>
+      <!-- end -->
 
-    <!-- start about series -->
-<h1 id="toggleButton" class="text-light text-center">About the Series <i class='bx bx-chevron-down'></i></h1>
-<div id="content" class="hidden">
-    <p class="text-light text-center">Ini adalah konten tambahan yang akan ditampilkan saat tombol diklik.</p>
-</div>
-<!-- end -->
+      <!-- end -->
 
-    <!-- end -->
-
-    <!-- episode -->
-    <div class="dropdown">
-      <button class="dropdown-button" id="dropdownButton">
+      <!-- episode -->
+      <div class="dropdown">
+        <button class="dropdown-button" id="dropdownButton">
           <span class="button-content">
-              <span class="button-text">Season 1 (15)</span>
-              <i class='bx bx-chevron-down'></i>
+            <span class="button-text">Season 1 (15)</span>
+            <i class="bx bx-chevron-down"></i>
           </span>
-      </button>
-      <div class="dropdown-content" id="dropdownContent">
+        </button>
+        <div class="dropdown-content" id="dropdownContent">
           <a href="#">Item 1</a>
           <a href="#">Item 2</a>
           <a href="#">Item 3</a>
+        </div>
       </div>
-  </div>
-  
-  
+
       <!-- end -->
 
       <!-- card episode -->
       <div class="epsode mt-5 container px-4">
         <div class="row">
-            <div class="col-md-6 img-card mb-3">
-                <img src="image/index/image 1.svg" class="mx-auto d-block" alt="...">
-            </div>
-            <div class="col-md-6 text-card">
-                <h3>S1 E1</h3>
-                <h1>Title</h1>
-                <h4>Aired on Aug 31, 2018</h4>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus aliquam nisi unde iure! Commodi architecto, veniam rerum tempora expedita quam blanditiis sit aperiam placeat repellat repudiandae. Neque, nisi. Iste.</p>
-            </div>
+          <div class="col-md-6 img-card mb-3">
+            <img
+              src="image/index/image 1.svg"
+              class="mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6 text-card">
+            <h3>S1 E1</h3>
+            <h1>Title</h1>
+            <h4>Aired on Aug 31, 2018</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus aliquam nisi unde iure! Commodi architecto, veniam
+              rerum tempora expedita quam blanditiis sit aperiam placeat
+              repellat repudiandae. Neque, nisi. Iste.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- content 2 -->
       <div class="epsode mt-5 container px-4">
         <div class="row">
-            <div class="col-md-6 img-card mb-3">
-                <img src="image/index/image 1.svg" class="mx-auto d-block" alt="...">
-            </div>
-            <div class="col-md-6 text-card">
-                <h3>S1 E1</h3>
-                <h1>Title</h1>
-                <h4>Aired on Aug 31, 2018</h4>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus aliquam nisi unde iure! Commodi architecto, veniam rerum tempora expedita quam blanditiis sit aperiam placeat repellat repudiandae. Neque, nisi. Iste.</p>
-            </div>
+          <div class="col-md-6 img-card mb-3">
+            <img
+              src="image/index/image 1.svg"
+              class="mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6 text-card">
+            <h3>S1 E1</h3>
+            <h1>Title</h1>
+            <h4>Aired on Aug 31, 2018</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus aliquam nisi unde iure! Commodi architecto, veniam
+              rerum tempora expedita quam blanditiis sit aperiam placeat
+              repellat repudiandae. Neque, nisi. Iste.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- content 3  -->
       <div class="epsode mt-5 container px-4">
         <div class="row">
-            <div class="col-md-6 img-card mb-3">
-                <img src="image/index/image 1.svg" class="mx-auto d-block" alt="...">
-            </div>
-            <div class="col-md-6 text-card">
-                <h3>S1 E1</h3>
-                <h1>Title</h1>
-                <h4>Aired on Aug 31, 2018</h4>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus aliquam nisi unde iure! Commodi architecto, veniam rerum tempora expedita quam blanditiis sit aperiam placeat repellat repudiandae. Neque, nisi. Iste.</p>
-            </div>
+          <div class="col-md-6 img-card mb-3">
+            <img
+              src="image/index/image 1.svg"
+              class="mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6 text-card">
+            <h3>S1 E1</h3>
+            <h1>Title</h1>
+            <h4>Aired on Aug 31, 2018</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus aliquam nisi unde iure! Commodi architecto, veniam
+              rerum tempora expedita quam blanditiis sit aperiam placeat
+              repellat repudiandae. Neque, nisi. Iste.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- content 4 -->
       <div class="epsode mt-5 container px-4">
         <div class="row">
-            <div class="col-md-6 img-card mb-3">
-                <img src="image/index/image 1.svg" class="mx-auto d-block" alt="...">
-            </div>
-            <div class="col-md-6 text-card">
-                <h3>S1 E1</h3>
-                <h1>Title</h1>
-                <h4>Aired on Aug 31, 2018</h4>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus aliquam nisi unde iure! Commodi architecto, veniam rerum tempora expedita quam blanditiis sit aperiam placeat repellat repudiandae. Neque, nisi. Iste.</p>
-            </div>
+          <div class="col-md-6 img-card mb-3">
+            <img
+              src="image/index/image 1.svg"
+              class="mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6 text-card">
+            <h3>S1 E1</h3>
+            <h1>Title</h1>
+            <h4>Aired on Aug 31, 2018</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus aliquam nisi unde iure! Commodi architecto, veniam
+              rerum tempora expedita quam blanditiis sit aperiam placeat
+              repellat repudiandae. Neque, nisi. Iste.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- content 5 -->
       <div class="epsode mt-5 container px-4">
         <div class="row">
-            <div class="col-md-6 img-card mb-3">
-                <img src="image/index/image 1.svg" class="mx-auto d-block" alt="...">
-            </div>
-            <div class="col-md-6 text-card">
-                <h3>S1 E1</h3>
-                <h1>Title</h1>
-                <h4>Aired on Aug 31, 2018</h4>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus aliquam nisi unde iure! Commodi architecto, veniam rerum tempora expedita quam blanditiis sit aperiam placeat repellat repudiandae. Neque, nisi. Iste.</p>
-            </div>
+          <div class="col-md-6 img-card mb-3">
+            <img
+              src="image/index/image 1.svg"
+              class="mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6 text-card">
+            <h3>S1 E1</h3>
+            <h1>Title</h1>
+            <h4>Aired on Aug 31, 2018</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus aliquam nisi unde iure! Commodi architecto, veniam
+              rerum tempora expedita quam blanditiis sit aperiam placeat
+              repellat repudiandae. Neque, nisi. Iste.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -257,80 +315,86 @@ rel="stylesheet"
           <div class="card-wrapper">
             <div class="card">
               <div class="image-box">
-                <img src="image/index/image 1.svg" alt="">
+                <img src="image/index/image 1.svg" alt="" />
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
-
-
-</div>
-
-
-
+    </div>
 
     <!-- Footer -->
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4">
+    <footer class="text-center text-white" style="background-color: #19171d">
+      <!-- Grid container -->
+      <div class="container p-4" style="background-color: #19171d">
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
 
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          distinctio earum repellat quaerat voluptatibus placeat nam,
-          commodi optio pariatur est quia magnam eum harum corrupti dicta,
-          aliquam sequi voluptate quas.
-        </p>
-      </section>
-      <!-- Section: Text -->
+        <!-- Section: Links -->
+        <section class="">
+          <ul class="d-flex justify-content-evenly">
+            <li><a href="" class="text-light">Terms of Use</a></li>
+            <li><a href="" class="text-light">FAQ</a></li>
+            <li><a href="" class="text-light">Privacy Policy</a></li>
+            <li><a href="" class="text-light">Contact Us</a></li>
+          </ul>
+        </section>
+        <!-- Section: Links -->
 
+        <!-- Section: Social media -->
+        <section class="mt-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
 
-      <!-- Section: Links -->
-      <section class="">
-        <ul class="d-flex justify-content-evenly">
-          <li><a href="" class="text-light">Terms of Use</a></li>
-          <li><a href="" class="text-light">FAQ</a></li>
-          <li><a href="" class="text-light">Privacy Policy</a></li>
-          <li><a href="" class="text-light">Contact Us</a></li>
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
 
-        </ul>
-      </section>
-      <!-- Section: Links -->
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
 
-      <!-- Section: Social media -->
-      <section class="mt-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          <!-- Youtube -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- Youtube -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>
-
-      </section>
-      <!-- Section: Social media -->
-
-
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2023 Copyright:
-      <a class="text-white" href="#">Streamify.com</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="#">Streamify.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- icon -->
     <script
@@ -344,22 +408,24 @@ rel="stylesheet"
 
     <!-- end icon -->
 
-
     <!-- main js -->
     <script src="main.js"></script>
 
     <!-- MDB -->
-<script
-type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
-></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    
-</body>
+  </body>
 </html>
