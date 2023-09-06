@@ -9,16 +9,18 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
-
 :root {
   --transition: all 400ms ease;
-  }
-  
-  .area-padding-top {
+  --slider-padding: 5rem;
+  --handle-size: 3rem;
+  --img-gap: 0.25rem;
+}
+
+.area-padding-top {
   padding: 10px 10px 0px;
-  }
-  
-  .text-top h3 {
+}
+
+.text-top h3 {
   color: #fff;
   font-family: Futura;
   font-size: 20px;
@@ -27,16 +29,16 @@ body {
   line-height: normal;
   letter-spacing: 4.233px;
   text-align: center;
-  }
-  
-  .nav-item ul li a {
+}
+
+.nav-item ul li a {
   color: white !important;
   background-color: #000 !important;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
   color: white !important;
-  }
+}
 
 /* back to top */
 .back-to-top {
