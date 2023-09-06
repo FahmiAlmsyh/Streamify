@@ -84,6 +84,11 @@
 nav ul li a {
   color: white !important;
 }
+
+nav ul li a:hover {
+  color: red !important;
+}
+
 .image-top img {
   width: 100%;
   padding: 10px 0px 30px;
