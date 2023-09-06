@@ -152,3 +152,11 @@ nav ul li a:hover {
   line-height: normal;
   margin-bottom: 0 !important;
 }
+
+.footer ul li a {
+  color: white !important;
+}
+
+.footerlink ul li a:hover {
+    color: red !important;
+}
