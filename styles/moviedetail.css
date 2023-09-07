@@ -1,4 +1,153 @@
-.cont {
+nav ul li a:hover {
+    color: red !important;
+  }
+  
+  .text-pre h1 {
+    color: #fff;
+    font-family: Red Hat Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 11.717px;
+  }
+  
+  .text-pre h3 {
+    color: gray;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.097px;
+  }
+  
+  .bx-plus {
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 50px;
+    width: max-content;
+    order: 1;
+    margin-right: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon h3 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+  }
+  
+  .icon i {
+    order: -1; /* Moves the icon to the left side */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .bx-plus:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff !important;
+  }
+  
+  #content {
+    display: none;
+  }
+  
+  .text-card {
+    margin: auto;
+  }
+  
+  .series h1 {
+    color: #fff;
+    font-family: Red Hat Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5.074px;
+  }
+  
+  .img-card img {
+    width: 100%;
+  }
+  
+  /* dropdown */
+  .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .dropdown-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 100px;
+    cursor: pointer;
+  }
+  
+  .button-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* CSS untuk konten yang disembunyikan dan transisi animasi yang halus */
+  .hidden {
+    display: none;
+    transition: var(--transition);
+  }
+  
+  /* carousel */
+  .card .image-box {
+    height: 200px;
+  }
+  
+  .card .image-box img {
+    height: 100%;
+  }
+  
+  .card {
+    border: 1px solid white;
+  }
+  
+  .cont {
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -91,85 +240,70 @@
     }
   }
 
-  /* dropdown */
-.dropdown {
-    position: relative;
+  .preview {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-  }
-  
-  .dropdown-button {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    padding: 10px 100px;
-    cursor: pointer;
-  }
-  
-  .button-content {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
   }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    color: #333;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-
-  .text-card {
-    margin: auto;
-  }
-
-  .bx-plus {
-    padding: 5px 5px 5px 5px;
-    background-color: white;
+  .btn-play {
+    padding: 5px 10px 0px 10px;
+    background-color: red;
     border-radius: 50px;
     width: max-content;
     order: 1;
     margin-right: 1rem;
-    transition: var(--transition);
-    cursor: pointer;
   }
   
-  .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
-  .icon h3 {
-    margin-top: 0;
+  .text-view {
+    order: 2;
+  }
+  
+  .content3 {
+    background-color: #19171d;
+    padding-bottom: 50px;
+  }
+  
+  .text-view1 {
+    order: 2;
+  }
+  
+  .text-view1 h2 {
+    color: #fff;
+    font-family: Red Hat Display;
+    font-size: 20.082px;
+    font-weight: 900 !important;
+    line-height: normal;
     margin-bottom: 0 !important;
-    cursor: pointer;
+    width: max-content;
   }
   
-  .icon i {
-    order: -1; /* Moves the icon to the left side */
-    margin-right: 10px; /* Adjust the margin as needed */
+  .text-view h1 {
+    color: #fff;
+    font-family: Red Hat Display;
+    font-size: 29.082px;
+    font-weight: 900 !important;
+    line-height: normal;
+    margin-bottom: 0 !important;
   }
   
-  .bx-plus:hover {
-    background-color: red;
-    color: white;
+  .text-view h2 {
+    color: #fff;
+    font-family: Red Hat Display;
+    font-size: 20.082px;
+    font-weight: 900 !important;
+    line-height: normal;
+    margin-bottom: 0 !important;
   }
-
-  .img-card img {
-    width: 100%;
+  
+  .footer ul li a {
+    color: white !important;
   }
+  
+  .footerlink ul li a:hover {
+    color: red !important;
+  }
+  
