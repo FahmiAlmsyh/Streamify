@@ -1,28 +1,4 @@
-nav ul li a:hover {
-    color: red !important;
-  }
-  
-  .text-pre h1 {
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: 11.717px;
-  }
-  
-  .text-pre h3 {
-    color: gray;
-    font-family: Red Hat Display;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.097px;
-  }
-  
-  .bx-plus {
+.bx-plus {
     padding: 5px 5px 5px 5px;
     background-color: white;
     border-radius: 50px;
@@ -54,40 +30,17 @@ nav ul li a:hover {
     background-color: red;
     color: white;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #fff !important;
-  }
-  
-  #content {
-    display: none;
-  }
-  
+
   .text-card {
     margin: auto;
-  }
-  
-  .series h1 {
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 5.074px;
   }
   
   .img-card img {
     width: 100%;
   }
-  
+
   /* dropdown */
-  .dropdown {
+.dropdown {
     position: relative;
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -127,26 +80,7 @@ nav ul li a:hover {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-  
-  /* CSS untuk konten yang disembunyikan dan transisi animasi yang halus */
-  .hidden {
-    display: none;
-    transition: var(--transition);
-  }
-  
-  /* carousel */
-  .card .image-box {
-    height: 200px;
-  }
-  
-  .card .image-box img {
-    height: 100%;
-  }
-  
-  .card {
-    border: 1px solid white;
-  }
-  
+
   .cont {
     display: flex;
     justify-content: center;
@@ -239,71 +173,3 @@ nav ul li a:hover {
       --items-per-screen: 2;
     }
   }
-
-  .preview {
-    display: flex;
-    align-items: center;
-  }
-  .btn-play {
-    padding: 5px 10px 0px 10px;
-    background-color: red;
-    border-radius: 50px;
-    width: max-content;
-    order: 1;
-    margin-right: 1rem;
-  }
-  
-  .content {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .text-view {
-    order: 2;
-  }
-  
-  .content3 {
-    background-color: #19171d;
-    padding-bottom: 50px;
-  }
-  
-  .text-view1 {
-    order: 2;
-  }
-  
-  .text-view1 h2 {
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 20.082px;
-    font-weight: 900 !important;
-    line-height: normal;
-    margin-bottom: 0 !important;
-    width: max-content;
-  }
-  
-  .text-view h1 {
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 29.082px;
-    font-weight: 900 !important;
-    line-height: normal;
-    margin-bottom: 0 !important;
-  }
-  
-  .text-view h2 {
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 20.082px;
-    font-weight: 900 !important;
-    line-height: normal;
-    margin-bottom: 0 !important;
-  }
-  
-  .footer ul li a {
-    color: white !important;
-  }
-  
-  .footerlink ul li a:hover {
-    color: red !important;
-  }
-  
