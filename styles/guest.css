@@ -1,0 +1,25 @@
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px; /* Small padding top and bottom */
+    position: sticky;
+    top: 0;
+    }
+    
+    .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .navbar li {
+    margin: 0 20px; /* Spacing between navbar items */
+    }
+    
+    .navbar a {
+    text-decoration: none;
+    color: #fff; /* Text color for navbar links */
+    font-weight: bold;
+    }
