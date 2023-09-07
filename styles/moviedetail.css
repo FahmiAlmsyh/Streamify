@@ -8,6 +8,10 @@
     transition: var(--transition);
     cursor: pointer;
   }
+
+  #content {
+    display: none;
+  }
   
   .icon {
     display: flex;

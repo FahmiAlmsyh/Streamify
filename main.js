@@ -37,25 +37,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// button show
-const toggleButton = document.getElementById("toggleButton");
-const content = document.getElementById("content");
-
-let isContentVisible = false;
-
-toggleButton.addEventListener("click", () => {
-  if (!isContentVisible) {
-    content.style.display = "block";
-    isContentVisible = true;
-    toggleButton.innerHTML =
-      'About the Series <i class="bx bx-chevron-up"></i>';
-  } else {
-    content.style.display = "none";
-    isContentVisible = false;
-    toggleButton.innerHTML =
-      'About the Series <i class="bx bx-chevron-down"></i>';
-  }
-});
 // dropdown
 const dropdownButton = document.getElementById("dropdownButton");
 const dropdownContent = document.getElementById("dropdownContent");
