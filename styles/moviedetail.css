@@ -1,3 +1,7 @@
+nav ul li a:hover {
+  color: red !important;
+}
+
 .bx-plus {
     padding: 5px 5px 5px 5px;
     background-color: white;
@@ -217,4 +221,12 @@ h4,
 h5,
 h6 {
 color: #fff !important;
+}
+
+.footer ul li a {
+  color: white !important;
+}
+
+.footerlink ul li a:hover {
+  color: red !important;
 }
