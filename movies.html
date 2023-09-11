@@ -73,7 +73,7 @@
               <a class="nav-link" href="gallery.html">Serial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutUs.html">Film</a>
+              <a class="nav-link" href="movies.html">Film</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutUs.html">Baru & Populer</a>
@@ -124,5 +124,257 @@
       </div>
     </nav>
     <!-- end navbar -->
+
+    <div class="section">
+      <div class="container">
+        <h2 class="fw-bold text-white mt-3">Film untuk anda</h2>
+      </div>
+
+      <!-- slider 1 - great patriotik war -->
+      <div
+        class="raw mt-5"
+        style="
+          padding-top: 0px;
+          padding-bottom: 0px;
+          background-color: black !important;
+        "
+      >
+        <div class="header" style="background-color: black !important">
+          <p class="title fs-4 text-light ms-4">Great Patriotic War</p>
+          <div class="progress-bar"></div>
+        </div>
+        <div class="cont">
+          <button class="handle left-handle">
+            <div class="text">&#8249;</div>
+          </button>
+          <div class="slider" style="height: 170px">
+            <!-- sumber:https://wallpapercave.com/wp/wp3849191.jpg -->
+            <img src="image/index/narvik.png" />
+            <!-- sumber:https://www.hometheaterforum.com/community/media/2017-the-unknown-soldier-poster.5492/full -->
+            <img src="image/index/unknown.png" />
+            <!-- sumber:https://w0.peakpx.com/wallpaper/507/704/HD-wallpaper-movie-dunkirk.jpg -->
+            <img src="image/index/dunkirk.png" />
+            <!-- sumber:https://images-na.ssl-images-amazon.com/images/S/pv-target-images/fb5434610f64025d6f1631dc10e2a8cae9dde5920a744526d6a29cfc08d1f653._UY500_UX667_RI_TTW_.jpg -->
+            <img src="image/index/ryan.png" />
+            <!-- sumber:https://keithandthemovies.files.wordpress.com/2016/02/pianist-poster.jpg -->
+            <img src="image/index/pianist.png" />
+            <!-- sumber:https://i.ytimg.com/vi/dCw_mAPoxgw/maxresdefault.jpg -->
+            <img src="image/index/degaulle.png" />
+            <!-- sumber:https://4.bp.blogspot.com/-TIiRIaa3r2M/WkVyrHttwcI/AAAAAAAACVM/T2RyosMfGKYa3OXgwLgrSqBUsY_3MJlVgCLcBGAs/s640/DarkestHour1.png -->
+            <img src="image/index/darkest.png" />
+            <!-- sumber:https://myhotposters.com/cdn/shop/products/HP2616_c6dbe366-2e56-49df-b287-9b07b7ee1635_1024x1024.jpg?v=1571444879 -->
+            <img src="image/index/dasboot.png" />
+            <!-- sumber:https://janefreeburywriter.com.au/wp-content/uploads/2017/09/kings-choice-3.jpg -->
+            <img src="image/index/thekingchoice.png"/>
+            <!-- sumber:https://m.media-amazon.com/images/S/pv-target-images/2fa6b4ea5519484b2b9ae1e837dcaf1b55e2560a166bf00aa5e28e0cfa97b09b.jpg -->
+            <img src="image/index/stalingrad.png" />
+            <!-- sumber:https://m.media-amazon.com/images/S/pv-target-images/27ab35c6ec0563c0d88e2305590bc2b70a41dfe8e9ad28f69fe239908877ae91.jpg -->
+            <img src="image/index/bridgetoofar.png" />
+            <!-- sumber:https://e1.pxfuel.com/desktop-wallpaper/797/1022/desktop-wallpaper-fury-movie-2014-fury-movie-2014-brad-pitt-1920x1200-for-your-mobile-tablet-fury-2014.jpg-->
+            <img src="image/index/fury.png" />
+          </div>
+          <button class="handle right-handle">
+            <div class="text">&#8250;</div>
+          </button>
+        </div>
+      </div>
+      <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- end icon -->
+
+    <!-- main js -->
+    <script src="main.js"></script>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js logics -->
+    <script>
+      // carousel horizontal yang ngebuat cape dik
+
+      // Your JavaScript code goes here
+      document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("click", (e) => {
+          let handle;
+          if (e.target.matches(".handle")) {
+            handle = e.target;
+          } else {
+            handle = e.target.closest(".handle");
+          }
+          if (handle != null) onHandleClick(handle);
+        });
+
+        const throttleProgressBar = throttle(() => {
+          document
+            .querySelectorAll(".progress-bar")
+            .forEach(calculateProgressBar);
+        }, 250);
+
+        window.addEventListener("resize", throttleProgressBar);
+
+        document
+          .querySelectorAll(".progress-bar")
+          .forEach(calculateProgressBar);
+
+        function calculateProgressBar(progressBar) {
+          progressBar.innerHTML = "";
+          const slider = progressBar.closest(".raw").querySelector(".slider");
+          const itemCount = slider.children.length;
+          const itemsPerScreen = parseInt(
+            getComputedStyle(slider).getPropertyValue("--items-per-screen")
+          );
+          let sliderIndex = parseInt(
+            getComputedStyle(slider).getPropertyValue("--slider-index")
+          );
+          const progressBarItemCount = Math.ceil(itemCount / itemsPerScreen);
+
+          if (sliderIndex >= progressBarItemCount) {
+            slider.style.setProperty(
+              "--slider-index",
+              progressBarItemCount - 1
+            );
+            sliderIndex = progressBarItemCount - 1;
+          }
+
+          for (let i = 0; i < progressBarItemCount; i++) {
+            const barItem = document.createElement("div");
+            barItem.classList.add("progress-item");
+            if (i === sliderIndex) {
+              barItem.classList.add("active");
+            }
+            progressBar.append(barItem);
+          }
+        }
+
+        function onHandleClick(handle) {
+          const progressBar = handle
+            .closest(".raw")
+            .querySelector(".progress-bar");
+          const slider = handle.closest(".cont").querySelector(".slider");
+          const sliderIndex = parseInt(
+            getComputedStyle(slider).getPropertyValue("--slider-index")
+          );
+          const progressBarItemCount = progressBar.children.length;
+          if (handle.classList.contains("left-handle")) {
+            if (sliderIndex - 1 < 0) {
+              slider.style.setProperty(
+                "--slider-index",
+                progressBarItemCount - 1
+              );
+              progressBar.children[sliderIndex].classList.remove("active");
+              progressBar.children[progressBarItemCount - 1].classList.add(
+                "active"
+              );
+            } else {
+              slider.style.setProperty("--slider-index", sliderIndex - 1);
+              progressBar.children[sliderIndex].classList.remove("active");
+              progressBar.children[sliderIndex - 1].classList.add("active");
+            }
+          }
+
+          if (handle.classList.contains("right-handle")) {
+            if (sliderIndex + 1 >= progressBarItemCount) {
+              slider.style.setProperty("--slider-index", 0);
+              progressBar.children[sliderIndex].classList.remove("active");
+              progressBar.children[0].classList.add("active");
+            } else {
+              slider.style.setProperty("--slider-index", sliderIndex + 1);
+              progressBar.children[sliderIndex].classList.remove("active");
+              progressBar.children[sliderIndex + 1].classList.add("active");
+            }
+          }
+        }
+
+        function throttle(cb, delay = 1000) {
+          let shouldWait = false;
+          let waitingArgs;
+          const timeoutFunc = () => {
+            if (waitingArgs == null) {
+              shouldWait = false;
+            } else {
+              cb(...waitingArgs);
+              waitingArgs = null;
+              setTimeout(timeoutFunc, delay);
+            }
+          };
+
+          return (...args) => {
+            if (shouldWait) {
+              waitingArgs = args;
+              return;
+            }
+
+            cb(...args);
+            shouldWait = true;
+            setTimeout(timeoutFunc, delay);
+          };
+        }
+      });
+
+      // end carousel yang ngebuat pala puyeng
+    </script>
   </body>
 </html>
