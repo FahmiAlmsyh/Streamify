@@ -1,0 +1,12 @@
+nav ul li a {
+  color: white !important;
+}
+
+nav ul li a:hover {
+  color: red !important;
+}
+
+.nav-item ul li a {
+  color: white !important;
+  background-color: #000 !important;
+}
