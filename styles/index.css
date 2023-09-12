@@ -159,4 +159,5 @@ nav ul li a:hover {
 
 .footerlink ul li a:hover {
     color: red !important;
+    transition: var(--transition);
 }
