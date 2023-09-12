@@ -233,4 +233,5 @@ color: #fff !important;
 
 .footerlink ul li a:hover {
   color: red !important;
+  transition: var(--transition);
 }
