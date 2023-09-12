@@ -104,3 +104,31 @@ nav ul li a:hover {
     --items-per-screen: 2;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slider img{
+  height: 100px;
+  }
+  
+  .left-handle{
+  height: 100px;
+  }
+  
+  .right-handle{
+  height: 100px;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+  .slider img{
+  height: 55px;
+  }
+  
+  .left-handle{
+  height: 55px;
+  }
+  
+  .right-handle{
+  height: 55px;
+  }
+  }
