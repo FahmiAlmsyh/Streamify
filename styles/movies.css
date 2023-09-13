@@ -94,6 +94,11 @@ nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+.title {
+  font-size: 22px;
+  margin-left: 1rem;
+}
+
 @media (max-width: 1000px) {
   .slider {
     --items-per-screen: 3;
@@ -103,11 +108,36 @@ nav ul li a:hover {
   .slider {
     --items-per-screen: 2;
   }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .progress-item {
+    min-width: 1rem;
+    height: 0.3rem;
+  }
+}
+
+@media (max-width:400px) {
+  .title {
+    font-size: 8px;
+  }
+
+  .progress-item {
+    min-width: 0.8rem;
+    height: 0.3rem;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
   .slider img{
   height: 100px;
+  }
+
+  .title{
+    margin-left: -1.3rem;
   }
   
   .left-handle{
