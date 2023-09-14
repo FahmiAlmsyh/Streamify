@@ -99,6 +99,15 @@ nav ul li a:hover {
   margin-left: 1rem;
 }
 
+.footer ul li a {
+  color: white !important;
+}
+
+.footerlink ul li a:hover {
+    color: red !important;
+    transition: var(--transition);
+}
+
 @media (max-width: 1000px) {
   .slider {
     --items-per-screen: 3;
