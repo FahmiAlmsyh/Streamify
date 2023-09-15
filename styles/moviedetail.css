@@ -236,30 +236,36 @@ color: #fff !important;
   transition: var(--transition);
 }
 
+
 @media screen and (max-width: 768px) {
   .slider img{
-  height: 100px;
+  height: auto;
+  width: 40px;
   }
   
+  .title{
+  margin-left: -1.3rem;
+  }
   .left-handle{
-  height: 100px;
+  height: auto;
+  width: 30px;
   }
-  
   .right-handle{
-  height: 100px;
+  width: 30px;
+  height: auto;
   }
   }
-  
   @media screen and (max-width: 600px) {
   .slider img{
-  height: 55px;
+  height: auto;
+  width: 20px;
   }
-  
   .left-handle{
-  height: 55px;
+  height: auto;
+  width: 30px;
   }
-  
   .right-handle{
-  height: 55px;
+  height: auto;
+  width: 30px;
   }
   }
