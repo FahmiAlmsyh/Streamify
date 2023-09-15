@@ -37,18 +37,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// dropdown
-const dropdownButton = document.getElementById("dropdownButton");
-const dropdownContent = document.getElementById("dropdownContent");
-
-dropdownButton.addEventListener("click", () => {
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-  } else {
-    dropdownContent.style.display = "block";
-  }
-});
-
 // Close the dropdown when clicking outside of it
 document.addEventListener("click", (event) => {
   if (
