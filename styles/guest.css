@@ -1,22 +1,125 @@
-/* Style the navbar */
-.navbar {
-    background-color: #333; /* Background color for the navbar */
-    padding: 10px; /* Small padding top and bottom */
+/* Initially, set the opacity of .navbar_luar to 1 */
+.navbar_luar {
+    background-color: black;
+    padding: 10px;
     position: sticky;
     top: 0;
-    }
-    
-    .navbar_dalam {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
-    }
-    
-    .ul_napbar li {
-    margin: 0 20px; /* Spacing between navbar items */
+    opacity: 1;
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Add transition for background-color and opacity */
+    z-index: 100;
+  }
+  
+  /* When it becomes sticky, set the background-color of .navbar_luar to transparent */
+  .navbar_luar.sticky {
+    background-color: transparent;
+  }
+  
+  .navbar_dalam.sticky {
+    background-color: black;
+  }
+  
+  /* Other styles for .navbar_dalam and .ul_napbar */
+  .navbar_dalam {
+    position: sticky;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    z-index: 200; /* Make sure this is higher than .navbar_luar */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 2px rgba(0, 5, 13, 0.5);
+    transition: background-color 0.3s ease; /* Add a transition for background-color */
+  }
+  
+  .ul_napbar {
+    margin: 0 20px;
     text-decoration: none;
-    color: #fff; /* Text color for navbar links */
+    color: #fff;
     font-weight: bold;
-    }
+    list-style: none;
+    align-items: center;
+    background: #00050d;
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    position: sticky;
+    transition: box-shadow 0.3s cubic-bezier(0.2, 0.45, 0, 1);
+    z-index: 190;
+  }
+
+  .ul_napbar img {
+    width: 80%;
+  }
+  
+  .Streamify {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ul_napbar li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-items select {
+    margin-right: 10px;
+    margin-left: 50px; /* Add spacing between select and image */
+  }
+  
+  .img_user {
+    margin: 10px;
+  }
+  
+  .img_user img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Dropdown button and icon styles */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Dropdown content styles (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position dropdown below the button */
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
