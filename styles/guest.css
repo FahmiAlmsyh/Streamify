@@ -51,7 +51,8 @@
   }
 
   .ul_napbar img {
-    width: 80%;
+    width: 60%;
+    margin-left: -0.1rem;
   }
   
   .Streamify {
@@ -122,4 +123,17 @@
 .dropdown-content a:hover {
   background-color: #007bff;
   color: #fff;
+}
+
+.bg-image {
+  background-image: url('../image1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  /* Additional styling (optional) */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* Add other styles as needed */
 }
