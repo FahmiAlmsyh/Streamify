@@ -130,7 +130,7 @@ nav ul li a:hover {
 
 @media (max-width:400px) {
   .title {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .progress-item {
@@ -148,7 +148,7 @@ nav ul li a:hover {
   }
   
   .title{
-  margin-left: -1.3rem;
+  margin-left: -1rem;
   }
   .left-handle{
   height: auto;

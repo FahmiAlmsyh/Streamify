@@ -155,3 +155,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   // end carousel yang ngebuat pala puyeng
+
+  // Ambil elemen-elemen HTML yang diperlukan
+const dropdownButton = document.getElementById("dropdownButton");
+const dropdownContent = document.getElementById("dropdownContent");
+
+// Tambahkan event listener untuk menampilkan atau menyembunyikan dropdown saat tombol diklik
+dropdownButton.addEventListener("click", function() {
+  // Toggle tampilan dropdown
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.style.display = "block";
+  }
+});
+
+// Sembunyikan dropdown jika pengguna mengklik di luar dropdown
+window.addEventListener("click", function(event) {
+  if (!event.target.matches("#dropdownButton")) {
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    }
+  }
+});

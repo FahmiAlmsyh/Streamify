@@ -4,6 +4,10 @@ a {
   text-decoration: none !important;
 }
 
+::marker {
+  content: none;
+}
+
 body {
   background-color: black !important;
   font-family: "Red Hat Display", sans-serif;

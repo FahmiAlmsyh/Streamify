@@ -126,6 +126,7 @@ h6 {
   text-decoration: none;
   display: block;
   color: #333;
+  top: 0;
 }
 
 .dropdown-content a:hover {
