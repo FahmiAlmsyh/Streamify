@@ -126,7 +126,7 @@
 }
 
 .bg-image {
-  background-image: url('../image1.png');
+  background-image: url('../image/index/bg-img.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -137,3 +137,69 @@
   padding: 0;
   /* Add other styles as needed */
 }
+
+.text {
+  align-self: center;
+}
+
+/* Style the button container */
+.dv-button-wrapper {
+  display: flex;
+  width: 16rem;
+  
+  flex-direction: column;
+}
+
+/* Style the copy button */
+.dv-button {
+  text-align: center;
+  margin: 5px;
+}
+
+.dv-copy-button {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  width: 15rem;
+}
+
+.dv-copy-button:hover .dv-overlay {
+  display: block;
+}
+
+/* Style the overlay on hover */
+.dv-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  display: none;
+}
+
+/* Style the divider line */
+.dv-divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.divider-line {
+  flex-grow: 1;
+  border: 1px solid white;
+}
+
+.dv-divider-text {
+  padding: 0 10px;
+  font-size: 25px;
+  color: #888;
+}
+
