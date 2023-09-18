@@ -2,6 +2,10 @@ nav ul li a {
   color: white !important;
 }
 
+.dropdown-divider {
+  border-top: 1px solid gray !important;
+}
+
 nav ul li a:hover {
   color: red !important;
 }
