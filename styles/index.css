@@ -66,6 +66,10 @@
   background-color: #000 !important;
 }
 
+.dropdown-menu a:hover {
+  transition: var(--transition);
+}
+
 .text-title h1 {
   font-family: "Red Hat Display";
   font-size: 29.082px;

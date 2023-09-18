@@ -6,6 +6,10 @@ nav ul li a {
   border-top: 1px solid gray !important;
 }
 
+.dropdown-menu a:hover {
+  transition: var(--transition);
+}
+
 nav ul li a:hover {
   color: #dc3545 !important;
 }

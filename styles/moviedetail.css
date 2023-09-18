@@ -6,6 +6,10 @@ nav ul li a:hover {
   border-top: 1px solid gray !important;
 }
 
+.dropdown-menu a:hover {
+  transition: var(--transition);
+}
+
 .bx-plus {
     padding: 5px 5px 5px 5px;
     background-color: white;
