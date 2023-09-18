@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: red !important;
+  color: #dc3545 !important;
 }
 
 .image-top img {
@@ -158,6 +158,6 @@ nav ul li a:hover {
 }
 
 .footerlink ul li a:hover {
-    color: red !important;
+    color: #dc3545 !important;
     transition: var(--transition);
 }

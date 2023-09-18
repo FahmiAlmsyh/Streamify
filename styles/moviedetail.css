@@ -1,5 +1,5 @@
 nav ul li a:hover {
-  color: red !important;
+  color: #dc3545 !important;
 }
 
 .dropdown-divider {
@@ -232,7 +232,7 @@ color: #fff !important;
 }
 
 .footerlink ul li a:hover {
-  color: red !important;
+  color: #dc3545 !important;
   transition: var(--transition);
 }
 
