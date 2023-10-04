@@ -92,6 +92,7 @@ h6 {
   font-weight: 600;
   line-height: normal;
   letter-spacing: 5.074px;
+  cursor: pointer;
 }
 
 /* dropdown */
@@ -270,37 +271,35 @@ h6 {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .slider img{
-  height: auto;
-  width: 40px;
-  }
-  
-  .title{
-  margin-left: -1.3rem;
-  }
-  .left-handle{
-  height: auto;
-  width: 30px;
-  }
-  .right-handle{
-  width: 30px;
-  height: auto;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .slider img{
-  height: auto;
-  width: 20px;
-  }
-  .left-handle{
-  height: auto;
-  width: 30px;
-  }
-  .right-handle{
-  height: auto;
-  width: 30px;
-  }
+  .slider img {
+    height: auto;
+    width: 40px;
   }
 
+  .title {
+    margin-left: -1.3rem;
+  }
+  .left-handle {
+    height: auto;
+    width: 30px;
+  }
+  .right-handle {
+    width: 30px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider img {
+    height: auto;
+    width: 20px;
+  }
+  .left-handle {
+    height: auto;
+    width: 30px;
+  }
+  .right-handle {
+    height: auto;
+    width: 30px;
+  }
+}

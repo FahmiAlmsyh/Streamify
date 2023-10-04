@@ -50,10 +50,19 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
         <button class="dropdown-btn">Pilih Bahasa</button>
         <i class="bx bx-chevron-down"></i>
         <div class="dropdown-content" id="dropdownContent">
-          <a href="#" data-lang="Indonesia">Bahasa Indonesia</a>
-          <a href="#" hreflang="en" data-lang="English">English</a>
-          <a href="#" data-lang="Japanese">日本語</a>
-          <a href="#" data-lang="Chinese">中国人</a>
+          <div id="google_element"></div>
+
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+            <script>
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  {pageLanguage : 'en'},
+                  'google_element'
+
+                );
+              }
+            </script>
         </div>
       </div>
       

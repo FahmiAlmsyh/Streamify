@@ -162,6 +162,6 @@ nav ul li a:hover {
 }
 
 .footerlink ul li a:hover {
-    color: #dc3545 !important;
-    transition: var(--transition);
+  color: #dc3545 !important;
+  transition: var(--transition);
 }

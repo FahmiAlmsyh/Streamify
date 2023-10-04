@@ -1,90 +1,90 @@
 /* Initially, set the opacity of .navbar_luar to 1 */
 .navbar_luar {
-    background-color: black;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    opacity: 1;
-    transition: background-color 0.3s ease, opacity 0.3s ease; /* Add transition for background-color and opacity */
-    z-index: 100;
-  }
-  
-  /* When it becomes sticky, set the background-color of .navbar_luar to transparent */
-  .navbar_luar.sticky {
-    background-color: transparent;
-  }
-  
-  .navbar_dalam.sticky {
-    background-color: black;
-  }
-  
-  /* Other styles for .navbar_dalam and .ul_napbar */
-  .navbar_dalam {
-    position: sticky;
-    background-color: black;
-    width: fit-content;
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    z-index: 200; /* Make sure this is higher than .navbar_luar */
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 2px rgba(0, 5, 13, 0.5);
-    transition: background-color 0.3s ease; /* Add a transition for background-color */
-  }
-  
-  .ul_napbar {
-    margin: 0 20px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    list-style: none;
-    align-items: center;
-    background: #00050d;
-    display: flex;
-    justify-content: space-between; /* Align items to the left and right */
-    position: sticky;
-    transition: box-shadow 0.3s cubic-bezier(0.2, 0.45, 0, 1);
-    z-index: 190;
-  }
-  
-  .Streamify {
-    display: flex;
-    justify-content: center;
-    margin-right: 3rem;
-  }
-
-  .footerlink ul li a:hover {
-    color: #dc3545 !important;
-    transition: var(--transition);
+  background-color: black;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Add transition for background-color and opacity */
+  z-index: 100;
 }
 
-  .ul_napbar li {
-    display: flex;
-    align-items: center;
-  }
-  
-  .right-items {
-    display: flex;
-    align-items: center;
-  }
-  
-  .right-items select {
-    margin-right: 10px;
-    margin-left: 50px; /* Add spacing between select and image */
-  }
-  
-  .img_user {
-    margin: 10px;
-  }
-  
-  .img_user img {
-    height: 30px;
-  }
-  
-  /* Style for the dropdown container */
+/* When it becomes sticky, set the background-color of .navbar_luar to transparent */
+.navbar_luar.sticky {
+  background-color: transparent;
+}
+
+.navbar_dalam.sticky {
+  background-color: black;
+}
+
+/* Other styles for .navbar_dalam and .ul_napbar */
+.navbar_dalam {
+  position: sticky;
+  background-color: black;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  z-index: 200; /* Make sure this is higher than .navbar_luar */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 2px rgba(0, 5, 13, 0.5);
+  transition: background-color 0.3s ease; /* Add a transition for background-color */
+}
+
+.ul_napbar {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  list-style: none;
+  align-items: center;
+  background: #00050d;
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  position: sticky;
+  transition: box-shadow 0.3s cubic-bezier(0.2, 0.45, 0, 1);
+  z-index: 190;
+}
+
+.Streamify {
+  display: flex;
+  justify-content: center;
+  margin-right: 3rem;
+}
+
+.footerlink ul li a:hover {
+  color: #dc3545 !important;
+  transition: var(--transition);
+}
+
+.ul_napbar li {
+  display: flex;
+  align-items: center;
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+}
+
+.right-items select {
+  margin-right: 10px;
+  margin-left: 50px; /* Add spacing between select and image */
+}
+
+.img_user {
+  margin: 10px;
+}
+
+.img_user img {
+  height: 30px;
+}
+
+/* Style for the dropdown container */
 .dropdown-container {
   position: relative;
   display: inline-block;
@@ -116,7 +116,7 @@
   position: absolute;
   background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 5px;
   opacity: 0;
@@ -155,9 +155,8 @@
   background-color: #dc3545;
 }
 
-
 .bg-image {
-  background-image: url('../image/index/bg-img.svg');
+  background-image: url("../image/index/bg-img.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -177,7 +176,7 @@
 .dv-button-wrapper {
   display: flex;
   width: 16rem;
-  
+
   flex-direction: column;
 }
 
@@ -255,7 +254,6 @@
 }
 
 @media (max-width: 500px) {
-
   .dropdown-btn {
     padding: 0;
   }
@@ -264,7 +262,7 @@
     margin: auto;
   }
 
-  .row>* {
+  .row > * {
     width: fit-content !important;
   }
 
@@ -279,7 +277,7 @@
     font-size: 12px;
   }
 
-  .Streamify img{
+  .Streamify img {
     width: 80px !important;
   }
 
@@ -289,7 +287,7 @@
   }
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
   .Streamify img {
     width: 70px !important;
   }

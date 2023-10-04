@@ -112,8 +112,8 @@ nav ul li a:hover {
 }
 
 .footerlink ul li a:hover {
-    color: #dc3545 !important;
-    transition: var(--transition);
+  color: #dc3545 !important;
+  transition: var(--transition);
 }
 
 @media (max-width: 1000px) {
@@ -136,7 +136,7 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .title {
     font-size: 10px;
   }
@@ -145,39 +145,37 @@ nav ul li a:hover {
     min-width: 0.8rem;
     height: 0.3rem;
   }
-  
 }
 
-
 @media screen and (max-width: 768px) {
-  .slider img{
-  height: auto;
-  width: 40px;
+  .slider img {
+    height: auto;
+    width: 40px;
   }
-  
-  .title{
-  margin-left: -1rem;
+
+  .title {
+    margin-left: -1rem;
   }
-  .left-handle{
-  height: auto;
-  width: 30px;
+  .left-handle {
+    height: auto;
+    width: 30px;
   }
-  .right-handle{
-  width: 30px;
-  height: auto;
+  .right-handle {
+    width: 30px;
+    height: auto;
   }
+}
+@media screen and (max-width: 600px) {
+  .slider img {
+    height: auto;
+    width: 20px;
   }
-  @media screen and (max-width: 600px) {
-  .slider img{
-  height: auto;
-  width: 20px;
+  .left-handle {
+    height: auto;
+    width: 30px;
   }
-  .left-handle{
-  height: auto;
-  width: 30px;
+  .right-handle {
+    height: auto;
+    width: 30px;
   }
-  .right-handle{
-  height: auto;
-  width: 30px;
-  }
-  }
+}
