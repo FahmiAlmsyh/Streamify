@@ -1,1067 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- logo -->
-    <link rel="icon" href="image/index/logo.svg" />
+<!-- logo -->
+<link rel="icon" href="image/index/logo.svg" />
 
-    <title>Streamify</title>
+<title>Streamify</title>
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
+<!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
 
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
+<!-- bootstrap -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+crossorigin="anonymous"
+/>
 
-    <!-- icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
+<!-- icon -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+/>
 
-    <link rel="stylesheet" href="globalStyle.css" />
-    <link rel="stylesheet" href="styles/index.css" />
-  </head>
+<link rel="stylesheet" href="globalStyle.css" />
+<link rel="stylesheet" href="styles/guest.css" />
+</head>
+<body>
+<!-- header -->
 
-  <body>
-    <!-- header -->
-    <div class="text-top area-padding-top pb-3 pt-3">
-      <h3>Streamify, Streample</h3>
-    </div>
+<!--! Navbar section -->
+<div class="navbar_luar">
+<div class="navbar_dalam">
+  <ul class="ul_napbar">
+    <li><a class="Streamify" href="#"><img width="100" style=" margin-left: -0.1rem;" src="image/index/logo.svg" alt=""></a></li>
+    <li class="right-items">
+      <div class="dropdown-container" id="dropdownContainer">
+        <button class="dropdown-btn">Pilih Bahasa</button>
+        <i class="bx bx-chevron-down"></i>
+        <div class="dropdown-content" id="dropdownContent">
+          <div id="google_element"></div>
 
-    <!-- bg image and carousel -->
-    <div class="bg-image">
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- slide 1 -->
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img
-              src="image/index/mdwy.png"
-              class="d-block w-100"
-              alt=""
-              style="height: 700px"
-            />
-            <div class="carousel-caption">
-              <h1>
-                <!-- sumber:https://www.tallengestore.com/cdn/shop/products/Midway_2019_-_Hollywood_War_WW2_Original_Movie_Poster_8bef7dda-b389-4c30-a10e-0387a64be848.jpg?v=1582782935 -->
-                <img src="image/index/midway.png" alt="" style="width: 200%" />
-              </h1>
-              <p style="width: 200%">
-                Pertempuran pulau tengah, Berdasarkan peristiwa nyata,
-                Kekaisaran Jepang berencana menyerang pulau tengah, Amerika
-                Serikat berhasil untuk memecahkan kode Jepang dengan mesin
-                pengurai, AS tahu Jepang akan menyerang pulau tengah, bisakah
-                Amerika Serikat mempertahankan diri melawan serangan Jepang?
-              </p>
-              <!-- button play -->
-              <div class="preview d-flex justify-content-center mt-4">
-                <div class="btn-play" style="background-color: white">
-                  <a href="#">
-                    <i class="bx bx-play bx-sm" style="color: #000"></i>
-                  </a>
-                </div>
-                <div class="text-view1">
-                  <a href="#">
-                    <h2>Tonton Cuplikan</h2>
-                  </a>
-                </div>
-              </div>
-              <!-- end -->
-            </div>
-          </div>
-          <!-- end -->
-          <!-- slide 2 -->
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="image/index/bismarck.png"
-              class="d-block w-100"
-              alt="Sink The Bismarck!"
-              style="height: 700px"
-            />
-            <div class="carousel-caption">
-              <h1>
-                <!-- sumber:https://i.ytimg.com/vi/c_awzw2O2ME/maxresdefault.jpg -->
-                <img src="image/index/bis.png" alt="" style="width: 200%" />
-              </h1>
-              <p style="width: 200%">
-                Raja lautan, Bismarck adalah kapal perang terbesar yang pernah
-                dibuat Jerman yang pernah dibuat Jerman sebelum tirpitz, Dalam
-                film ini menenggelamkan Bismarck!, Bismarck telah menenggelamkan
-                dua kapal kebanggaan Angkatan Laut Inggris kebanggaan Inggris,
-                dan akhirnya menjadi buronan lautan. Bisakah mereka
-                menenggelamkan Bismarck?
-              </p>
-              <!-- button play -->
-              <div class="preview d-flex justify-content-center mt-4">
-                <div class="btn-play" style="background-color: white">
-                  <a href="#">
-                    <i class="bx bx-play bx-sm" style="color: #000"></i>
-                  </a>
-                </div>
-                <div class="text-view1">
-                  <a href="#">
-                    <h2>Tonton Cuplikan</h2>
-                  </a>
-                </div>
-              </div>
-              <!-- end -->
-            </div>
-          </div>
-          <!-- end -->
-          <!-- slide 3 -->
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="image/index/oppenheimer.png"
-              class="d-block w-100"
-              alt="..."
-              style="height: 700px"
-            />
-            <div class="carousel-caption">
-              <h1>
-                <!-- sumber:https://english.jagran.com/entertainment/oppenheimer-movie-review-imdb-rating-cillian-murphy-starrer-is-so-far-christopher-nolan-best-in-depth-yet-challenging-masterpiece-10089143 -->
-                <img src="image/index/oppn.png" alt="" style="width: 200%" />
-              </h1>
-              <p style="width: 200%">
-                Bapak dari Proyek Manhattan, J. Robert Oppenheimer, seorang ahli
-                fisika yang memainkan peran penting dalam Perang Dunia II untuk
-                mengembangkan bom atom bagi Amerika Serikat.
-              </p>
-              <!-- button play -->
-              <div class="preview d-flex justify-content-center mt-4">
-                <div class="btn-play" style="background-color: white">
-                  <a href="#">
-                    <i class="bx bx-play bx-sm" style="color: #000"></i>
-                  </a>
-                </div>
-                <div class="text-view1">
-                  <a href="#">
-                    <h2>Tonton Cuplikan</h2>
-                  </a>
-                </div>
-              </div>
-              <!-- end -->
-            </div>
-          </div>
-          <!-- end -->
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <!-- end carousel -->
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <!-- navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg bg-body-dark sticky-top">
-      <div class="container-fluid menu container">
-        <a href="index.html">
-          <img
-            src="image/index/logo.svg"
-            class="navbar-brand"
-            width="85"
-            alt=""
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="text"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span
-            class="navbar-toggler-icon bg-secondary"
+            <script>
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  {pageLanguage : 'en'},
+                  'google_element'
 
-          ></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Beranda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Serial</a>
-            </li>
-            <li class="nav-item">
-              <!-- tombol ke halaman movies.html -->
-              <a class="nav-link" href="movies.html">Film</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Baru & Populer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tahun</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Search Bar and Avatar -->
-        <div class="d-flex">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src="image/index/Vector.svg"
-                  width="25"
-                  alt="Avatar"
-                  class="navbar-avatar"
-                />
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdown"
-              >
-                <li><a class="dropdown-item">Hendra Nugroho</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Profil</a></li>
-                <li><a class="dropdown-item" href="#">Setelan</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <!-- tombol ke halaman guest.html -->
-                <li><a class="dropdown-item" href="guest.html">Keluar</a></li>
-              </ul>
-            </li>
-          </ul>
+                );
+              }
+            </script>
         </div>
       </div>
-    </nav>
-    <!-- end navbar -->
-
-    <div class="container mt-2">
-      <!-- content 1 -->
-      <div
-        class="row d-flex align-items-center content1"
-        style="margin-bottom: 70px"
-      >
-        <div class="col-lg-4 mb-5 padding order-lg-1 order-2 mt-4">
-          <div class="button-title">
-            <a href="movies.html" class="btn btn-danger">Film</a>
-          </div>
-          <div class="text-title mt-2">
-            <h1 class="text-light">Four Days Of Snow And Blood</h1>
-            <h2 class="text-secondary mt-2">1988</h2>
-            <div class="preview">
-              <div class="btn-play mt-3" style="background-color: #dc3545">
-                <a href="#">
-                  <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                </a>
-              </div>
-              <div class="text-view">
-                <a href="#">
-                  <h1 class="pt-3">Tonton Cuplikan</h1>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-8 order-lg-2 order-1">
-          <!-- sumber:https://i0.wp.com/100hideogosha.com/wp-content/uploads/2018/12/226.jpg?fit=640%2C360&ssl=1 -->
-          <img src="image/index/showa.png" width="100%" alt="" />
-        </div>
+      
+      
+      <div class="img_user">
+        <img src="image/index/Vector.svg" style="width: 30px;" alt="user logo" />
       </div>
+    </li>
+  </ul>
+    
+</div>
+</div>
+</div>
+<!--! End Navbar Section -->
+      <!-- bg image and carousel -->
+      <!-- Background image -->
+<div class="bg-image row rowr">
+  <div class="text col-md-6 conter">
+    <h1 style="font-family: futura;" class="text-light"><i>Streamify, Streample</i></h1>
+    <p class="text-light fs-5 mt-3">Jelajahi sejarah dunia. Nikmati momen bersejarah.</p>
 
-      <!-- end content 1 -->
-
-      <!-- content 2 -->
-      <div class="row">
-        <div class="col-lg-6 cont2" style="margin-bottom: 70px">
-          <div class="text-cont2">
-            <!-- sumber:https://www.history.com/ -->
-            <img src="image/index/image 1.svg" width="100%" alt="" />
-
-            <div class="button-title mt-4 ms-4">
-              <button type="button" class="btn btn-danger">Serial</button>
-            </div>
-
-            <div class="text-title ms-4 mt-3">
-              <h1 class="text-light">Mountain Men</h1>
-              <h4 class="text-secondary mt-2">2012-2023</h4>
-              <p>Episode Baru Setiap Senin</p>
-            </div>
-
-            <div class="preview ms-4">
-              <div class="btn-play" style="background-color: #dc3545">
-                <a href="detail.html">
-                  <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                </a>
-              </div>
-              <div class="text-view">
-                <!-- tombol ke halaman detail.html -->
-                <a href="detail.html">
-                  <h2>Tonton Cuplikan</h2>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ===== ===== -->
-        <div class="col-lg-6 cont2" style="margin-bottom: 70px">
-          <div class="text-cont2">
-            <!-- sumber:https://www.smithsonianchannel.com/shows/air-disasters/9dakwt/season-7 -->
-            <img src="image/index/mayday.png" width="100%" alt="" />
-
-            <div class="button-title mt-4 ms-4">
-              <button type="button" class="btn btn-danger">Serial</button>
-            </div>
-
-            <div class="text-title ms-4 mt-3">
-              <h1 class="text-light">Air Crash Investigation</h1>
-              <h4 class="text-secondary mt-2">2003-2023</h4>
-              <p>Episode Baru setiap Sabtu</p>
-            </div>
-
-            <div class="preview ms-4">
-              <div class="btn-play" style="background-color: #dc3545">
-                <a href="#">
-                  <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                </a>
-              </div>
-              <div class="text-view">
-                <a href="#">
-                  <h2>Tonton Cuplikan</h2>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="dv-button-wrapper">
+      <div class="dv-button">
+        <!-- tombol menuju halaman index -->
+          <a class="dv-copy-button" href="index.html">
+              <span class="dv-content"> Member Streamify? Masuk</span>
+              <span class="dv-overlay"></span>
+          </a>
       </div>
-      <!-- end -->
-
-      <!-- content 3 -->
-
-      <div class="content3" style="margin-bottom: 70px">
-        <div class="img-con3">
-          <!-- sumber:https://www.palacefilms.com.au/the-kings-choice -->
-          <img src="image/index/kingchoice.png" class="img-fluid" alt="..." />
-        </div>
-
-        <div class="text-con3 mt-5">
-          <div class="button-title d-flex justify-content-center">
-            <a href="movies.html" class="btn btn-danger mb-2">Film</a>
-          </div>
-
-          <div class="text-title text-center">
-            <h1 class="text-light">The King's Choice</h1>
-            <h4 class="text-secondary mt-2">2016</h4>
-            <p>Sekarang Tayang Perdana</p>
-          </div>
-
-          <div class="preview d-flex justify-content-center mt-3">
-            <!-- tombol ke halaman moviedetail.html -->
-            <div class="btn-play" style="background-color: #dc3545">
-              <a href="moviedetail.html">
-                <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-              </a>
-            </div>
-            <div class="text-view">
-              <a href="moviedetail.html">
-                <h2>Tonton Cuplikan</h2>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="dv-divider">
+          <hr class="divider-line">
+          <span class="dv-divider-text fs-5">atau</span>
+          <hr class="divider-line">
       </div>
-    </div>
+      <div class="dv-button">
+          <a class="dv-copy-button" href="#">
+              <span class="dv-content">Daftar</span>
+              <span class="dv-overlay"></span>
+          </a>
+      </div>
+  </div>
+  
+  </div>
 
-    <!-- end -->
-
-    <!-- content - new Episodes -->
-    <div class="section" style="background-color: white">
+  <div class="col-md-6"></div>
+</div>
+      
+<!-- benefit -->
+<section style="background-color: white; padding-top: 70px; padding-bottom: 70px;">
       <div class="container">
-        <div class="content">
-          <h3><b>Acara Baru</b> | Tayang Perdana</h3>
-
-          <div class="row mt-3">
-            <!-- card 1 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://i.ytimg.com/vi/_75ez7E6bvc/maxresdefault.jpg -->
-                <img
-                  src="image/index/oppen.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder">Oppenheimer</p>
-                  <h5 class="text-secondary pb-2">2023</h5>
-                  <p class="text-black" style="font-size: medium">
-                    Kisah ilmuwan Amerika, J. Robert Oppenheimer, dan perannya
-                    dalam pengembangan bom atom.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 2 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://assets.ayojakarta.com/crop/0x0:0x0/750x500/webp/photo/2023/04/24/5-Fakta-Unik-Film-Buya-Hamka-Film-Biografi-di-Tengah-Gempuran-Horror-Indonesia-1-1772546994.jpg -->
-                <img
-                  src="image/index/hamka.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder">Buya Hamka</p>
-                  <h5 class="text-secondary pb-2">2023</h5>
-                  <p class="text-black" style="font-size: medium">
-                    Film biografi ini merekam kehidupan cendekiawan Muslim
-                    ternama, Buya Hamka, mulai dari asal-usulnya yang sederhana
-                    di Sumatra Barat hingga pencapaian politiknya.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 3 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://occ-0-358-33.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwh61-GQdOf65lviFAIDI-NRpB6ALbtHUpus99JOfXLyfiu_edzC4KfZrdwgTNMtIbODyztNIcXlSQ9mz5zryWtWqblmx_wr_dTpIW7kJia-UD1FEdGoYIX.jpg?r=a03 -->
-                <img
-                  src="image/index/ottoman.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Serial</span>
-                  </button>
-                  <p class="card-text fw-bolder">
-                    Rise Of The Empires : Ottoman
-                  </p>
-                  <h5 class="text-secondary pb-2">2020-2022</h5>
-                  <p class="text-black" style="font-size: medium">
-                    Sultan Ottoman Mehmed II melancarkan kampanye epik untuk
-                    merebut ibu kota Bizantium, Konstantinopel, dan membentuk
-                    jalannya sejarah selama berabad-abad.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row marketing">
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="110" height="140" src="image/index/moviee.svg" alt="Your Image Description">
+            <h2 class="fw-normal">Tayangan</h2>
+            <p>Kami telah menyediakan tayangan-tayangan historis yang menarik, serta telah lulus sensor. </p>
           </div>
-          <!-- card 4 -->
-          <div class="row mt-3">
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://www.nytimes.com/2019/06/02/arts/television/chernobyl-hbo.html -->
-                <img
-                  src="image/index/chernobyl.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Serial</span>
-                  </button>
-                  <p class="card-text fw-bolder">Chernobyl</p>
-                  <h5 class="text-secondary pb-2">2019</h5>
-                  <p class="text-black" style="font-size: medium">
-                    Pada bulan April 1986, ledakan di pembangkit listrik tenaga
-                    nuklir Chernobyl di Uni Republik Sosialis Soviet menjadi
-                    salah satu bencana buatan manusia terburuk di dunia.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 5 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://www.npr.org/2020/01/09/794859663/1917-is-not-your-dad-s-war-movie -->
-                <img
-                  src="image/index/1917.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder">1917</p>
-                  <h5 class="text-secondary pb-2">2019</h5>
-                  <p class="text-black" style="font-size: medium">
-                    6 April 1917. Ketika sebuah batalion infanteri berkumpul
-                    untuk berperang jauh di dalam wilayah musuh, dua tentara
-                    ditugaskan untuk berpacu dengan waktu dan menyampaikan pesan
-                    yang akan menghentikan 1.600 orang agar tidak masuk ke dalam
-                    jebakan maut.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 6 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div class="card rounded-0" style="width: 25rem">
-                <!-- sumber:https://ew.com/recap/the-man-in-the-high-castle-season-1-episode-8/ -->
-                <img
-                  src="image/index/highcastle.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Serial</span>
-                  </button>
-                  <p class="card-text fw-bolder">Man In The High Castle</p>
-                  <h5 class="text-secondary pb-2">2015-2019</h5>
-                  <p class="text-black" style="font-size: medium">
-                    Di Amerika distopia yang didominasi oleh Nazi Jerman dan
-                    Kekaisaran Jepang, seorang wanita muda menemukan sebuah film
-                    misterius yang mungkin memegang kunci untuk menggulingkan
-                    rezim totaliter.
-                  </p>
-                </div>
-                <div
-                  class="card-footer border-0"
-                  style="background-color: white"
-                >
-                  <div class="preview" style="margin-top: 4%">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-black fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="85" height="140" src="image/index/book.svg" alt="Your Image Description">
+            <h2 class="fw-normal">Konten</h2>
+            <p>Tayangan-tayangan kami memiliki unsur sejarah, baik fiksi ataupun kisah nyata.</p>
+          </div>
+          <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="image/index/group.svg" alt="Your Image Description">
+              <h2 class="fw-normal">Semua boleh tonton</h2>
+              <p>Tontonlah bersama kolega, teman, atau keluarga Anda, agar mendapatkan edukasi sejarah yang lebih luas, melalui tayangan kami.</p>
+              
           </div>
         </div>
-        <!-- end Episodes -->
       </div>
-    </div>
-    <!-- end -->
+    </section>
 
-    <!-- free to watch     -->
-    <div
-      class="section"
-      style="background-color: #222222; padding-top: 70px; padding-bottom: 70px"
-    >
-      <div class="container">
-        <div class="watch">
-          <div class="text-watch">
-            <h3 class="text-light">Tonton Gratis</h3>
-          </div>
+    <!-- end benefit -->
 
-          <!-- content line 1 -->
+    <!-- movies -->
+    <section class="d-flex justify-content-center" style="background-color: black; padding-top: 70px; padding-bottom: 70px;">
+      <div class="row container">
+        <div class="col-lg-6 text-light text-desc mt-4">
+          <h1 style="font-weight: 700;">Tonton di mana pun</h1>
+          <p class="fs-5">Streaming film dan acara TV sejarah tak terbatas di ponsel, tablet, laptop, dan TV-mu.</p>
+        </div>
 
-          <div class="row">
-            <!-- card 1 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.imdb.com/title/tt1343703/ -->
-                <img
-                  src="image/index/frtrss.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">Fortress Of War</p>
-                  <h5 class="text-secondary pb-2">2010</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Drama perang yang berlatar belakang invasi Nazi ke Uni
-                    Soviet pada Juni 1941, di mana pasukan Soviet bertahan di
-                    benteng perbatasan selama sembilan hari.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 2 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://stevenewmanwriter.medium.com/lawrence-of-arabia-the-history-of-a-film-2b1751186cea -->
-                <img
-                  src="image/index/lwrence.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">
-                    Lawrence of Arabia
-                  </p>
-                  <h5 class="text-secondary pb-2">1962</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Kisah T.E. Lawrence, perwira Inggris yang berhasil
-                    menyatukan dan memimpin suku-suku Arab yang beragam dan
-                    sering berperang selama Perang Dunia I untuk melawan Turki.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 3 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.rabbit-reviews.com/movie-recommendations/thriller/the-beast-of-war-1988/ -->
-                <img
-                  src="image/index/beast.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">The Beast Of War</p>
-                  <h5 class="text-secondary pb-2">1988</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Sebuah tank Soviet dan kru perangnya terpisah dari patroli
-                    mereka dan tersesat di lembah Afghanistan dengan sekelompok
-                    pemberontak yang ingin membalas dendam.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- content line 2 -->
-
-          <div class="row">
-            <!-- card 4 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.bbc.com/culture/article/20170913-film-review-the-death-of-stalin-is-absurdly-funny -->
-                <img
-                  src="image/index/stalin.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">
-                    The Death Of Stalin
-                  </p>
-                  <h5 class="text-secondary pb-2">2017</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Moskow, 1953. Setelah berkuasa selama hampir 30 tahun,
-                    diktator Soviet Joseph Vissarionovich Stalin jatuh sakit dan
-                    tak lama kemudian meninggal dunia. Para anggota Dewan
-                    Menteri berebut kekuasaan.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 5 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://tiff.net/events/while-at-war -->
-                <img
-                  src="image/index/espana.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">While At War</p>
-                  <h5 class="text-secondary pb-2">2019</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Penulis Miguel de Unamuno menghadapi dirinya sendiri dan
-                    cita-citanya setelah kudeta militer 1936.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 6 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.indonesianfilmcenter.com/filminfo/detail/16360/kadet-1947 -->
-                <img
-                  src="image/index/kadet.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">Kadet 1947</p>
-                  <h5 class="text-secondary pb-2">2021</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Ketika Belanda memulai agresi terhadap Indonesia untuk
-                    mendapatkan kembali kekuasaannya setelah Perang Dunia II,
-                    sekelompok taruna yang belum berpengalaman harus
-                    mempertahankan pangkalan udara terakhir yang tersisa.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- content line 3 -->
-          <div class="row">
-            <!-- card 7 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.primevideo.com/detail/Hitler-The-Rise-of-Evil/0LPM0LGNMN22VWK6PXD83WP4SF/ref=atv_nb_lcl_id_ID?ie=UTF8&language=id_ID -->
-                <img
-                  src="image/index/evil.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Serial</span>
-                  </button>
-                  <p class="card-text fw-bolder text-light">
-                    Hitler : The Rise Of Evil
-                  </p>
-                  <h5 class="text-secondary pb-2">2003</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Sebuah kisah yang unik, yang menggambarkan kehidupan Adolf
-                    Hitler semasa kecil dan kebangkitannya di Partai Pekerja
-                    Sosialis Nasional Jerman sebelum Perang Dunia II.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 8 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://variety.com/2020/film/asia/eight-hundred-film-finally-given-china-release-date-1234723185/ -->
-                <img
-                  src="image/index/eight.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <a href="movies.html" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Film</span>
-                  </a>
-                  <p class="card-text fw-bolder text-light">
-                    The Eight Hundred
-                  </p>
-                  <h5 class="text-secondary pb-2">2020</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Pada tahun 1937, 800 tentara Tiongkok bertempur di bawah
-                    pengepungan dari sebuah gudang di tengah medan perang
-                    Shanghai, yang dikelilingi sepenuhnya oleh tentara Jepang.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- card 9 -->
-            <div class="col-md-4 d-flex justify-content-center mt-3">
-              <div
-                class="card rounded-0 border-secondary"
-                style="width: 25rem; background-color: #222222">
-                <!-- sumber:https://www.natgeotv.com/za/shows/natgeo/apocalypse-the-second-world-war -->
-                <img
-                  src="image/index/apocalypse.png"
-                  class="card-img-top rounded-0"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-danger mb-2">
-                    <span style="font-size: smaller">Serial</span>
-                  </button>
-                  <p class="card-text fw-bolder text-light">
-                    Apocalypse : The Second World War
-                  </p>
-                  <h5 class="text-secondary pb-2">2009</h5>
-                  <p class="text-white" style="font-size: medium">
-                    Seri enam bagian ini menelusuri jejak Perang Dunia Kedua,
-                    dari kebangkitan Nazi hingga menyerahnya Jepang, dengan
-                    potret rinci tokoh-tokoh kunci.
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <div class="preview">
-                    <div class="btn-play" style="background-color: #dc3545">
-                      <a href="#">
-                        <i class="bx bx-play bx-sm" style="color: #f5ecec"></i>
-                      </a>
-                    </div>
-                    <div class="text-view">
-                      <a href="#">
-                        <p class="text-light fw-bold pt-3">Tonton Cuplikan</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end content -->
+        <div class="col-lg-6 mt-4">
+          <img class="movie" style="width: 80%;" src="image/index/film.png" alt="">
         </div>
       </div>
-    </div>
+
+    </section>
+    <!-- end movies  -->
 
     <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #19171d">
@@ -1150,15 +243,68 @@
 
     <script src="main.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script>
+      window.addEventListener("scroll", () => {
+  if (window.scrollY > 70) {
+    isBackToTopRendered = true;
+    alterStyles(isBackToTopRendered);
+  } else {
+    isBackToTopRendered = false;
+    alterStyles(isBackToTopRendered);
+  }
+});
+    </script>
+
+
+
+
+<!-- js -->
+<!-- js -->
+<script>
+  // Define the distance from the top when the elements should become sticky
+  var distanceFromTop = 100; // You can adjust this value as needed
+
+  // Function to toggle the "sticky" class based on scroll position
+  function toggleSticky() {
+    var navbar_luar = document.querySelector('.navbar_luar');
+    var navbar_dalam = document.querySelector('.navbar_dalam');
+    var navbar_luarOffset = navbar_luar.getBoundingClientRect().top;
+
+    if (navbar_luarOffset <= distanceFromTop) {
+      navbar_luar.classList.add('sticky');
+      navbar_dalam.classList.add('sticky');
+    } else {
+      navbar_luar.classList.remove('sticky');
+      navbar_dalam.classList.remove('sticky');
+    }
+  }
+
+  // Attach the scroll event listener
+  window.addEventListener('scroll', toggleSticky);
+
+  // Initial call to set the initial state based on page load
+  toggleSticky();
+</script>
+
+<script>
+  // Ambil elemen-elemen HTML yang diperlukan
+const dropdownContainer = document.getElementById("dropdownContainer");
+const dropdownContent = document.getElementById("dropdownContent");
+
+// Tambahkan event listener untuk menampilkan atau menyembunyikan dropdown saat hover
+dropdownContainer.addEventListener("mouseenter", function() {
+  dropdownContent.style.display = "block";
+});
+
+dropdownContainer.addEventListener("mouseleave", function() {
+  dropdownContent.style.display = "none";
+});
+
+
+
+</script>
+
+
+
+</body>
 </html>
